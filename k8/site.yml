@@ -1,0 +1,4 @@
+---
+- hosts: localhost
+  roles:
+     - /root/k8

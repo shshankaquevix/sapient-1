@@ -1,0 +1,15 @@
+---
+
+- name: configure project id...
+  command: "gcloud config set project {{ project_id }}"
+
+
+- name: config zone....
+  command: "gcloud config set compute/zone {{ compute_zone }}"
+
+- name: create cluster...
+  command: "gcloud container clusters create {{ name }} --num-nodes={{ number_of_nodes }}"
+
+
+
+
