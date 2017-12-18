@@ -1,4 +1,4 @@
 ---
 - hosts: localhost
   roles:
-     - /root/k8
+     - /sapient/root/k8
